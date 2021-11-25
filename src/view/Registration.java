@@ -45,17 +45,31 @@ public class Registration extends JFrame {
 		contentPane.setLayout(null);
 		
 		JPanel panel = new JPanel();
+		panel.setLayout(null);
 		panel.setBackground(new Color(51, 51, 204));
 		panel.setBounds(0, 0, 400, 600);
-		getContentPane().add(panel);
-		panel.setLayout(null);
+		contentPane.add(panel);
 		
-		JLabel lblNewLabel = new JLabel("PAINEL DE CONTROLE");
-		lblNewLabel.setForeground(Color.WHITE);
+		JLabel lblNewLabel = new JLabel("PAINEL");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel.setForeground(Color.WHITE);
 		lblNewLabel.setFont(new Font("Verdana", Font.BOLD, 34));
-		lblNewLabel.setBounds(58, 180, 283, 240);
+		lblNewLabel.setBounds(92, 200, 216, 77);
 		panel.add(lblNewLabel);
+		
+		JLabel lblDe = new JLabel("DE");
+		lblDe.setHorizontalAlignment(SwingConstants.CENTER);
+		lblDe.setForeground(Color.WHITE);
+		lblDe.setFont(new Font("Verdana", Font.BOLD, 34));
+		lblDe.setBounds(92, 261, 216, 77);
+		panel.add(lblDe);
+		
+		JLabel lblControle = new JLabel("CONTROLE");
+		lblControle.setHorizontalAlignment(SwingConstants.CENTER);
+		lblControle.setForeground(Color.WHITE);
+		lblControle.setFont(new Font("Verdana", Font.BOLD, 34));
+		lblControle.setBounds(92, 326, 216, 77);
+		panel.add(lblControle);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBounds(400, 0, 400, 600);

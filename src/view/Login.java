@@ -66,12 +66,26 @@ public class Login extends JFrame {
 		getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("PAINEL DE CONTROLE");
+		JLabel lblNewLabel = new JLabel("PAINEL");
 		lblNewLabel.setForeground(Color.WHITE);
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Verdana", Font.BOLD, 34));
-		lblNewLabel.setBounds(58, 180, 283, 240);
+		lblNewLabel.setBounds(92, 200, 216, 77);
 		panel.add(lblNewLabel);
+		
+		JLabel lblDe = new JLabel("DE");
+		lblDe.setHorizontalAlignment(SwingConstants.CENTER);
+		lblDe.setForeground(Color.WHITE);
+		lblDe.setFont(new Font("Verdana", Font.BOLD, 34));
+		lblDe.setBounds(92, 261, 216, 77);
+		panel.add(lblDe);
+		
+		JLabel lblControle = new JLabel("CONTROLE");
+		lblControle.setHorizontalAlignment(SwingConstants.CENTER);
+		lblControle.setForeground(Color.WHITE);
+		lblControle.setFont(new Font("Verdana", Font.BOLD, 34));
+		lblControle.setBounds(92, 326, 216, 77);
+		panel.add(lblControle);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBounds(400, 0, 400, 600);
